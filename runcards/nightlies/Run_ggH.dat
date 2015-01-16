@@ -41,6 +41,7 @@
   NLO_QCD_Mode MC@NLO {LJET}; 
   Loop_Generator LOOPGEN0 {1,2};
   Loop_Generator LOOPGEN1 {3};
+  RS_ME_Generator Comix;
   ME_Generator Amegic {LJET};
   End process;
 }(processes);
